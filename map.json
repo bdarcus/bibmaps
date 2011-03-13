@@ -1,0 +1,19 @@
+/* language-independent key mappings from RIS, Refer, BibTeX to CSL */
+
+ris_map = {
+  "TY": "type",
+  "ID": "id",
+  "A1": "author",
+  "T1": "title",
+  "Y1": "issued",
+  "SP": "page-first",
+  "EP": "pages",
+  "A2": "editor",
+  "T2": "container-title",
+  "PB": "publisher",
+  "CY": "publisher-place"
+}
+
+bt_map = {}
+
+refer_map = {}
