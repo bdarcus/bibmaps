@@ -1,6 +1,6 @@
 /* language-independent key mappings from RIS, Refer, BibTeX to CSL */
 
-ris_map = {
+ris = {
   "TY": "type",
   "ID": "id",
   "A1": "author",
@@ -14,6 +14,30 @@ ris_map = {
   "CY": "publisher-place"
 }
 
-bt_map = {}
+bibtex = {
+  "TY": "type",
+  "ID": "id",
+  "A1": "author",
+  "T1": "title",
+  "Y1": "issued",
+  "SP": "page-first",
+  "EP": "pages",
+  "A2": "editor",
+  "T2": "container-title",
+  "PB": "publisher",
+  "CY": "publisher-place"
+}
 
-refer_map = {}
+refer = {
+  "TY": "type",
+  "ID": "id",
+  "A1": "author",
+  "T1": "title",
+  "Y1": "issued",
+  "SP": "page-first",
+  "EP": "pages",
+  "A2": "editor",
+  "T2": "container-title",
+  "PB": "publisher",
+  "CY": "publisher-place"
+}
