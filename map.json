@@ -1,6 +1,9 @@
 /* language-independent key mappings from RIS, Refer, BibTeX to CSL */
 
 ris = {
+  "types": {
+    "book":"book"
+  },
   "TY": "type",
   "ID": "id",
   "A1": "author",
