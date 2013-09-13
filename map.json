@@ -1,6 +1,10 @@
 /* language-independent key mappings from RIS, Refer, BibTeX to CSL */
 
 ris = {
+  "config": {
+    "names": "string-parse",
+    "dates": "string-parse-ris"
+  }
   "types": {
     "book":"book"
   },
